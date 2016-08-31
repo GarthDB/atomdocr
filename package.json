@@ -1,17 +1,24 @@
 {
-  "name": "docblockr",
-  "main": "./lib/docblockr.js",
-  "version": "0.8.4",
-  "description": "A helper package for writing documentation",
-  "repository": "https://github.com/nikhilkalige/docblockr",
+  "name": "atomdocr",
+  "main": "./lib/index",
+  "version": "0.0.0",
+  "description": "A helper package for writing AtomDoc style documentation",
+  "keywords": [],
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
+  "repository": "https://github.com/garthdb/atomdocr",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "atom-mocha-test-runner": "0.2.2",
+    "atom-mocha-test-runner": "^0.2.2",
     "chai": "^3.5.0",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.0.0",
     "js-yaml": "^3.6.1"
   },
   "consumedServices": {
@@ -20,6 +27,5 @@
         "^0.1.0": "consumeSnippetsService"
       }
     }
-  },
-  "atomTestRunner": "./spec/runner"
+  }
 }

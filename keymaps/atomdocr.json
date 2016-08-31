@@ -1,0 +1,9 @@
+{
+    "atom-workspace atom-text-editor:not([mini])": {
+        "tab": "atomdocr:parse-tab"
+    },
+    "atom-text-editor:not([mini])": {
+        "enter": "atomdocr:parse-enter",
+        "shift-enter": "atomdocr:parse-inline"
+    }
+}
