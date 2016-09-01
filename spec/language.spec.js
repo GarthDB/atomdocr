@@ -1,14 +1,7 @@
 "use babel"
 
 import JsParser from '../lib/languages/javascript';
-import CppParser from '../lib/languages/cpp';
-import RustParser from '../lib/languages/rust';
-import PhpParser from '../lib/languages/php';
 import CoffeeParser from '../lib/languages/coffee';
-import ActionscriptParser from '../lib/languages/actionscript';
-import ObjCParser from '../lib/languages/objc';
-import JavaParser from '../lib/languages/java';
-import TypescriptParser from '../lib/languages/typescript';
 
 import fs from 'fs';
 import path from 'path';
@@ -17,14 +10,7 @@ import yaml from 'js-yaml';
 // Hack to let us call parsers by filename
 let parsers = {
     JsParser,
-    CppParser,
-    RustParser,
-    PhpParser,
-    CoffeeParser,
-    ActionscriptParser,
-    ObjCParser,
-    JavaParser,
-    TypescriptParser,
+    CoffeeParser
 };
 
 var filepath = path.resolve(path.join(__dirname, 'dataset/languages'));
