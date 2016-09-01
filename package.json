@@ -1,7 +1,7 @@
 {
   "name": "atomdocr",
   "main": "./lib/index",
-  "version": "0.1.0",
+  "version": "0.8.4",
   "description": "A helper package for writing AtomDoc style documentation",
   "keywords": [],
   "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
